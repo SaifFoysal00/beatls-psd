@@ -1,0 +1,194 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+ 	/*header top area start*/
+ 	.icon ul li a i {
+    margin-right: 0px;
+    padding: 0px 0px;
+}
+
+ 	/*header top area end*/
+ 	/*menu area start*/
+ 	/*menu area start*/
+ 	.menu ul li a {
+    font-weight: 700;
+    padding: 5px 0px!important;
+}
+  /*banner area end*/
+  .banner_text_wrap {
+    width: 100%;
+}
+.banner_text_wrap h1 {
+    font-size: 35px;
+}
+.banner_text_wrap h2 {
+    font-size: 25px;
+}
+.banner_text_wrap p {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+  /*banner area end*/
+
+ /*about us start*/
+ #about_us_wrap {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.cus_con_wrap {
+    margin-top: 30px;
+}
+.par_wrap .first_par {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+ /*about us end*/
+
+ /*service area start*/
+ #service_wrapper {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+ /*service area end*/
+
+ /*testimonial section start*/
+ #testimonial {
+    padding-top: 35px;
+}
+ /*testimonial section end*/
+
+  /*protfolio section start*/
+  #protfolio_wrapper {
+    padding: 20px 0px;
+}
+  .prot_cus_btn {
+    margin: 5px 0px!important;
+}
+ .cus_prot_mix{
+	column-count:2;
+}
+ /*protfolio section end*/
+
+ 
+  /*team section start*/
+  .box_hover {
+    height: 355.953px;
+}
+  /*team section end*/
+
+  /*fotter area start*/
+  #footer_wrapper {
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.single_box_cont img {
+    padding-bottom: 10px;
+}
+  .foot_link_icon .icon_det {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.footer_par p {
+    font-size: 14px;
+}
+  /*fotter area end*/
+ }
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*banner area start*/
+   .banner_text_wrap {
+    width: 70%;
+}
+.banner_text_wrap p {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+ /*banner area end*/
+
+  /*protfolio section start*/
+ .cus_prot_mix{
+	column-count:2;
+}
+ /*protfolio section end*/
+
+ /*team section start*/
+.box_hover {
+    height: 294.953px;
+}
+ /*team section end*/
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /*banner area start*/
+ .banner_text_wrap {
+    width: 56%;
+}
+ .banner_text_wrap p {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+ /*banner area end*/
+ /*about us section start*/
+ .cus_con_wrap img{
+	margin-top:80px;
+}
+ .par_wrap .first_par {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+ /*about us section end*/
+
+
+ /*our team section start*/
+ .box_hover {
+    height: 183.953px;
+}
+.box_hover i {
+    font-size:18px;
+    width: 35px;
+    height: 35px;
+     margin: 5px 0px;
+    line-height: 35px;
+}
+
+ /*our team section end*/
+ }
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+   /*about us section start*/
+ .par_wrap .first_par {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+ /*about us section end*/
+
+ /*our team section start*/
+ .box_hover {
+    height: 256.953px;
+}
+ /*our team section end*/
+
+ /*footer area start*/
+ .single_box_cont h2 {
+    font-size: 20px;
+}
+.foot_link_icon ul li a i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+.foot_link_icon .icon_det {
+	font-size:14px;
+    margin-left: 5px;
+}
+.foot_menu ul li {
+    padding-bottom: 10px;
+}
+.foot_menu ul li a {
+    font-size: 13px;
+}
+ /*footer area end*/
+
+ }
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
